@@ -12,6 +12,6 @@ app.get("/teste", (req, res) => {
         .send({mensagem: "boas-vindas à API"})
 })
 
-app.listen(port, () => console.log(`servidor está rodando na porta ${port}`))
+app.listen(port, () => console.log(`servidor está rodando na porta http://localhost:${port}`))
 
 module.exports = app
